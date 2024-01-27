@@ -31,7 +31,9 @@
 
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
-
+		embedded_svc.settings.extraPrechatFormDetails = {
+				display: none !important;
+		};
 		embedded_svc.settings.prepopulatedPrechatFields = {
 			Platform_User_Email__c: "y.hasan@arat.co",
 			Platform_User_ID__c: "545454",
