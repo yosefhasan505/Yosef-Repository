@@ -12,7 +12,7 @@
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
-		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+		embedded_svc.settings.language = 'fr'; //For example, enter 'en' or 'en-US'
 
 		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
 		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
@@ -31,6 +31,34 @@
 
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
+		embedded_svc.settings.extraPrechatFormDetails = [{
+			"label":"Platform User Email",  
+			"transcriptFields": ["Platform_User_Email__c"]
+		},{
+			"label":"Platform User ID", 
+			"transcriptFields": ["Platform_User_ID__c"]
+		},{
+			"label":"Platform User Name", 
+			"transcriptFields": ["Platform_User_Name__c"]
+		},{
+			"label":"Platform User Type", 
+			"transcriptFields": ["Platform_User_Type__c"]
+		},{
+			"label":"Platform User Language", 
+			"transcriptFields": ["Platform_User_Language__c"]
+		}];
+
+		embedded_svc.settings.prepopulatedPrechatFields = {
+			Platform_User_Email__c: "y.hasan@arat.co",
+			Platform_User_ID__c: "545454",
+			Platform_User_Name__c: "Yosef Hasan",
+			Platform_User_Type__c: "Borrower",
+			Platform_User_Language__c: "Arabic",
+			FirstName: "First Name",
+			LastName: "Last Name"
+			
+		};
+
 
 		embedded_svc.init(
 			'https://arat--sandbox.sandbox.my.salesforce.com',
