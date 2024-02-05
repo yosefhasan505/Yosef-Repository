@@ -54,7 +54,6 @@
 No. of Branches:<input  id="00N8e000004CP8E" name="00N8e000004CP8E" size="20" type="text" /><br>
 
 VAT Certified:<select  id="00N8e000004CP8J" name="00N8e000004CP8J" title="VAT Certified">
-<option value="">--None--</option>
 <option value="No">No</option>
 <option value="Yes">Yes</option>
 </select><br>
@@ -62,13 +61,11 @@ VAT Certified:<select  id="00N8e000004CP8J" name="00N8e000004CP8J" title="VAT Ce
 Multiple-Brands:<input  id="00N8e000004CP8O" name="00N8e000004CP8O" type="checkbox" value="1" /><br>
 
 Country:<select  id="00N8e000004CP7k" name="00N8e000004CP7k" title="Country">
-<option value="">--None--</option>
 <option value="Saudi Arabia">Saudi Arabia - السعودية</option>
 <option value="Egypt">Egypt - مصر</option>
 </select><br>
 
 City:<select  id="00N8e000004CP89" name="00N8e000004CP89" title="City">
-<option value="">--None--</option>
 <option value="Abha">Abha</option>
 <option value="Al Bukayriyah">Al Bukayriyah</option>
 <option value="Baljurshi">Baljurshi</option>
@@ -121,7 +118,6 @@ City:<select  id="00N8e000004CP89" name="00N8e000004CP89" title="City">
 </select><br>
 
 Lead Category:<select  id="00N8e000004CP7f" name="00N8e000004CP7f" title="Lead Category">
-<option value="">--None--</option>
 <option value="Digital Stores">Digital Stores</option>
 <option value="Cloud Kitchen">Cloud Kitchen</option>
 <option value="Cloud Shelf">Cloud Shelf</option>
