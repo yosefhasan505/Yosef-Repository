@@ -73,7 +73,7 @@ City:<select  id="00N8e000004CP89" name="00N8e000004CP89" title="City">
 <option value="Hafr Al-Batin">Hafr Al-Batin</option>
 <option value="Al Jawf">Al Jawf</option>
 <option value="Jeddah">Jeddah</option>
-<option value="Hizan">Hizan</option>
+<option value="Jizan">Hizan</option>
 <option value="Jubail">Jubail</option>
 <option value="Khafji">Khafji</option>
 <option value="Khamis Mushayt">Khamis Mushayt</option>
@@ -106,6 +106,60 @@ City:<select  id="00N8e000004CP89" name="00N8e000004CP89" title="City">
 <option value="Alexandria">Alexandria</option>
 <option value="Others">Others</option>
 </select><br>
+
+<script>
+  const CityDetailOptions = {
+    Eygpt: ['Alexandria', 'Cairo', 'Other'],
+    Saudi Arabia: ['Abha', 'Al Bukayriyah', 'Baljurshi','Bisha', 'Buraydah', 'Al Baha','Dammam', 'Diriyah', 'Dawadmi','Al-Gwei’iyyah', 'Hautat Sudair', 'Al-Hareeq',
+'Hotat Bani Tamim', 'Hofuf', 'Hafr Al-Batin','Al Jawf', 'Jeddah', 'Jizan','Jubail', 'Khafji', 'Khamis Mushayt','Khobar'
+, 'Al-Majma’ah', 'Al-Mubarraz','Mecca', 'Madina','Muzahmiyya', 'Najran', 'Qiddiya'
+'Qatif', 'Al Qunfudhah', 'Ar Rass','Ras Tanura', 'Riyadh', 'Sakakah','Sharurah', 'Shaqraa', 'Taif',
+'Tabuk', 'Tanomah', 'Al-Ula', 'Unaizah','Uyun AlJiwa', 'Wadi Al-Dawasir', 'Yanbu'
+, 'Zulfi', 'Others'],
+
+  };
+  function removeCityDetailOptions() {
+    const detailSelect = document.getElementById('00N8e000004CP89');
+    const options = detailSelect.querySelectorAll('option');
+    if (options && options.length > 0) {
+      options.forEach((option) => {
+        option.remove();
+      });
+    }
+  }
+  function createNoneOption() {
+    const option = document.createElement('option');
+    option.textContent = '--None--';
+    option.value = '';
+    return option;
+  }
+  function filterOptions() {
+    removeCityDetailOptions();
+    const CitySelect = document.getElementById('00N8e000004CP7k');
+    const CityDetailOptions = CitySelect.options;
+    const selectedOption = CityDetailOptions[CitySelect.selectedIndex];
+
+    if (selectedOption && selectedOption.value && CityDetailOptions[selectedOption.value]) {
+      let options = CityDetailOptions[selectedOption.value].map((opt) => {
+        const el = document.createElement('option');
+        el.textContent = opt;
+        el.value = opt;
+        return el;
+      });
+      options = [createNoneOption()].concat(options);
+      const CityDetailOptions = document.getElementById('00N6g00000TPCXY');
+      options.forEach((opt) => {
+        CityDetailOptions.appendChild(opt);
+      });
+    }
+  }
+  document.getElementById('00N8e000004CP7k').addEventListener('change', () => {
+    filterOptions();
+  });
+  removeCityDetailOptions();
+</script>
+
+
 
 Lead Category:<select  id="00N8e000004CP7f" name="00N8e000004CP7f" title="Lead Category">
 <option value="">--None--</option>
