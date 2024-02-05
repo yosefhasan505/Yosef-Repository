@@ -147,7 +147,7 @@ City:<select  id="00N8e000004CP89" name="00N8e000004CP89" title="City">
         return el;
       });
       options = [createNoneOption()].concat(options);
-      const CityDetailOptions = document.getElementById('00N6g00000TPCXY');
+      const CityDetailOptions = document.getElementById('00N8e000004CP89');
       options.forEach((opt) => {
         CityDetailOptions.appendChild(opt);
       });
