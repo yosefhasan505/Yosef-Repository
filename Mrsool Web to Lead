@@ -35,8 +35,8 @@
 
 <label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
 
-Country:<select  id="00N8e000004CP7k" name="00N8e000004CP7k" title="Country"><option value="">--None--</option><option value="Saudi Arabia">Saudi Arabia</option>
-<option value="Egypt">Egypt</option>
+Country:<select  id="00N8e000004CP7k" name="00N8e000004CP7k" title="Country"><option value="">--None--</option><option value="Saudi Arabia - السعودية">Saudi Arabia</option>
+<option value="Egypt - مصر">Egypt</option>
 </select><br>
 
 Lead Category:<select  id="00N8e000004CP7f" name="00N8e000004CP7f" title="Lead Category"><option value="">--None--</option><option value="متجر الكتروني - Digital Stores">متجر الكتروني - Digital Stores</option>
