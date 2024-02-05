@@ -37,14 +37,14 @@
 
 Country:<select  id="00N8e000004CP7k" name="00N8e000004CP7k" title="Country">
 <option value="">--None--</option>
-<option value="Saudi Arabia - السعودية">Saudi Arabia - سيببب</option>
-<option value="Egypt - مصر">Egypt</option>
+<option value="Saudi Arabia">Saudi Arabia - سيببب</option>
+<option value="Egypt">Egypt</option>
 </select><br>
 
 Lead Category:<select  id="00N8e000004CP7f" name="00N8e000004CP7f" title="Lead Category">
 <option value="">--None--</option>
 <option value="متجر الكتروني - Digital Stores">متجر الكتروني - Digital Stores</option>
-<option value="مطعم سحابي - Cloud Kitchen">Cloud Kitchen</option>
+<option value="مطعم سحابي - Cloud Kitchen">Cloud Kitchen  sdfsdfsdfsdf</option>
 <option value="رف سحابي - Cloud Shelf">Cloud Shelf</option>
 <option value="سوبرماركت - Supermarket">Supermarket</option>
 <option value="بقالة - Express Grocery">بقالة - Express Grocery</option>
