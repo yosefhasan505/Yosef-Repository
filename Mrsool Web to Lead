@@ -40,9 +40,9 @@ Country:<select  id="00N8e000004CP7k" name="00N8e000004CP7k" title="Country"><op
 </select><br>
 
 Lead Category:<select  id="00N8e000004CP7f" name="00N8e000004CP7f" title="Lead Category"><option value="">--None--</option><option value="متجر الكتروني - Digital Stores">متجر الكتروني - Digital Stores</option>
-<option value="مطعم سحابي - Cloud Kitchen">مطعم سحابي - Cloud Kitchen</option>
-<option value="رف سحابي - Cloud Shelf">رف سحابي - Cloud Shelf</option>
-<option value="سوبرماركت - Supermarket">سوبرماركت - Supermarket</option>
+<option value="مطعم سحابي - Cloud Kitchen">Cloud Kitchen</option>
+<option value="رف سحابي - Cloud Shelf">Cloud Shelf</option>
+<option value="سوبرماركت - Supermarket">Supermarket</option>
 <option value="بقالة - Express Grocery">بقالة - Express Grocery</option>
 <option value="مطعم - Restaurant">مطعم - Restaurant</option>
 <option value="مقهى - Cafe">مقهى - Cafe</option>
