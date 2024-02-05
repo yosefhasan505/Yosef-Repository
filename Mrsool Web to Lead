@@ -39,7 +39,9 @@
 
 <label for="country">Country</label><input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
 
-<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Advertisement">Advertisement</option>
+<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source">
+<option value="">--None--</option>
+<option value="Advertisement">Advertisement</option>
 <option value="Customer Event">Customer Event</option>
 <option value="Employee Referral">Employee Referral</option>
 <option value="External Referral">External Referral</option>
@@ -54,7 +56,9 @@
 
 No. of Branches:<input  id="00N8e000004CP8E" name="00N8e000004CP8E" size="20" type="text" /><br>
 
-VAT Certified:<select  id="00N8e000004CP8J" name="00N8e000004CP8J" title="VAT Certified"><option value="">--None--</option><option value="No">No</option>
+VAT Certified:<select  id="00N8e000004CP8J" name="00N8e000004CP8J" title="VAT Certified">
+<option value="">--None--</option>
+<option value="No">No</option>
 <option value="Yes">Yes</option>
 </select><br>
 
