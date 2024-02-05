@@ -35,26 +35,104 @@
 
 <label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
 
-Country:<select  id="00N8e000004CP7k" name="00N8e000004CP7k" title="Country">
-<option value="">--None--</option>
-<option value="Saudi Arabia">Saudi Arabia - سيببب</option>
+<label for="mobile">Mobile</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+
+<label for="country">Country</label><input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
+
+<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Advertisement">Advertisement</option>
+<option value="Customer Event">Customer Event</option>
+<option value="Employee Referral">Employee Referral</option>
+<option value="External Referral">External Referral</option>
+<option value="Google AdWords">Google AdWords</option>
+<option value="Other">Other</option>
+<option value="Partner">Partner</option>
+<option value="Purchased List">Purchased List</option>
+<option value="Trade Show">Trade Show</option>
+<option value="Webinar">Webinar</option>
+<option value="Website">Website</option>
+</select><br>
+
+No. of Branches:<input  id="00N8e000004CP8E" name="00N8e000004CP8E" size="20" type="text" /><br>
+
+VAT Certified:<select  id="00N8e000004CP8J" name="00N8e000004CP8J" title="VAT Certified"><option value="">--None--</option><option value="No">No</option>
+<option value="Yes">Yes</option>
+</select><br>
+
+Multiple-Brands:<input  id="00N8e000004CP8O" name="00N8e000004CP8O" type="checkbox" value="1" /><br>
+
+Country:<select  id="00N8e000004CP7k" name="00N8e000004CP7k" title="Country"><option value="">--None--</option><option value="Saudi Arabia">Saudi Arabia</option>
 <option value="Egypt">Egypt</option>
 </select><br>
 
-Lead Category:<select  id="00N8e000004CP7f" name="00N8e000004CP7f" title="Lead Category">
-<option value="">--None--</option>
-<option value="متجر الكتروني - Digital Stores">متجر الكتروني - Digital Stores</option>
-<option value="مطعم سحابي - Cloud Kitchen">Cloud Kitchen  sdfsdfsdfsdf</option>
-<option value="رف سحابي - Cloud Shelf">Cloud Shelf</option>
-<option value="سوبرماركت - Supermarket">Supermarket</option>
-<option value="بقالة - Express Grocery">بقالة - Express Grocery</option>
-<option value="مطعم - Restaurant">مطعم - Restaurant</option>
-<option value="مقهى - Cafe">مقهى - Cafe</option>
-<option value="مخبز - Bakery">مخبز - Bakery</option>
-<option value="صيدلية - Pharmacy">صيدلية - Pharmacy</option>
-<option value="محل ملابس - Clothes">محل ملابس - Clothes</option>
-<option value="محل هدايا - Gifts">محل هدايا - Gifts</option>
+City:<select  id="00N8e000004CP89" name="00N8e000004CP89" title="City"><option value="">--None--</option><option value="Abha">Abha</option>
+<option value="Al Bukayriyah">Al Bukayriyah</option>
+<option value="Baljurshi">Baljurshi</option>
+<option value="Bisha">Bisha</option>
+<option value="Buraydah">Buraydah</option>
+<option value="Al Baha">Al Baha</option>
+<option value="Dammam">Dammam</option>
+<option value="Diriyah">Diriyah</option>
+<option value="Dawadmi">Dawadmi</option>
+<option value="Al-Gwei’iyyah">Al-Gwei’iyyah</option>
+<option value="Hautat Sudair">Hautat Sudair</option>
+<option value="Al-Hareeq">Al-Hareeq</option>
+<option value="Hotat Bani Tamim">Hotat Bani Tamim</option>
+<option value="Hofuf">Hofuf</option>
+<option value="Hafr Al-Batin">Hafr Al-Batin</option>
+<option value="Al Jawf">Al Jawf</option>
+<option value="Jeddah">Jeddah</option>
+<option value="Hizan">Hizan</option>
+<option value="Jubail">Jubail</option>
+<option value="Khafji">Khafji</option>
+<option value="Khamis Mushayt">Khamis Mushayt</option>
+<option value="Khobar">Khobar</option>
+<option value="Al-Majma’ah">Al-Majma’ah</option>
+<option value="Al-Mubarraz">Al-Mubarraz</option>
+<option value="Mecca">Mecca</option>
+<option value="Madina">Madina</option>
+<option value="Muzahmiyya">Muzahmiyya</option>
+<option value="Najran">Najran</option>
+<option value="Qiddiya">Qiddiya</option>
+<option value="Qatif">Qatif</option>
+<option value="Al Qunfudhah">Al Qunfudhah</option>
+<option value="Ar Rass">Ar Rass</option>
+<option value="Ras Tanura">Ras Tanura</option>
+<option value="Riyadh">Riyadh</option>
+<option value="Sakakah">Sakakah</option>
+<option value="Sharurah">Sharurah</option>
+<option value="Shaqraa">Shaqraa</option>
+<option value="Taif">Taif</option>
+<option value="Tabuk">Tabuk</option>
+<option value="Tanomah">Tanomah</option>
+<option value="Al-Ula">Al-Ula</option>
+<option value="Unaizah">Unaizah</option>
+<option value="Uyun AlJiwa">Uyun AlJiwa</option>
+<option value="Wadi Al-Dawasir">Wadi Al-Dawasir</option>
+<option value="Yanbu">Yanbu</option>
+<option value="Zulfi">Zulfi</option>
+<option value="Cairo">Cairo</option>
+<option value="Alexandria">Alexandria</option>
+<option value="Others">Others</option>
 </select><br>
+
+Lead Category:<select  id="00N8e000004CP7f" name="00N8e000004CP7f" title="Lead Category"><option value="">--None--</option><option value="Digital Stores">Digital Stores</option>
+<option value="Cloud Kitchen">Cloud Kitchen</option>
+<option value="Cloud Shelf">Cloud Shelf</option>
+<option value="Supermarket">Supermarket</option>
+<option value="Express Grocery">Express Grocery</option>
+<option value="Restaurant">Restaurant</option>
+<option value="Cafe">Cafe</option>
+<option value="Bakery">Bakery</option>
+<option value="Pharmacy">Pharmacy</option>
+<option value="Clothes">Clothes</option>
+<option value="Gifts">Gifts</option>
+</select><br>
+
+Commercial Number:<input  id="00N8e000004CP9C" maxlength="255" name="00N8e000004CP9C" size="20" type="text" /><br>
+
+District:<input  id="00N8e000004CP8x" maxlength="255" name="00N8e000004CP8x" size="20" type="text" /><br>
+
+Position:<input  id="00N8e000004CP8T" maxlength="255" name="00N8e000004CP8T" size="20" type="text" /><br>
 
 <input type="submit" name="submit">
 
