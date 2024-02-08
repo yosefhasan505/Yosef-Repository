@@ -14,10 +14,10 @@
                     embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({ 
                     "PlatformUserEmail" : "yose.505@gmail.com" , 
                     "PlatformUserType" : "Borrower",
-                    "PlatformUserID" : "45345345345" }
-                    "PlatformUserFirstName" : "Yosef"
-                    "PlatformUserLastName" : "Hasan"
-                    "PlatformUserLanguage" : "Arabic"
+                    "PlatformUserID" : "45345345345" ,
+                    "PlatformUserFirstName" : "Yosef",
+                    "PlatformUserLastName" : "Hasan",
+                    "PlatformUserLanguage" : "Arabic"}
                     );
                 });
         
